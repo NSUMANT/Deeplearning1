@@ -1,0 +1,37 @@
+Gradient Descent and SGD on Make Moons Dataset
+Aim
+
+To implement and compare Batch Gradient Descent and Stochastic Gradient Descent (SGD) for training a neural network from scratch using NumPy.
+
+Dataset Used
+
+The Make Moons dataset from sklearn.datasets is used.
+
+400 samples
+
+2 input features
+
+Binary classification
+
+Noise = 0.20
+
+The features are standardized before training.
+
+Methods Used
+
+Batch Gradient Descent: Uses the entire dataset for one weight update per epoch.
+
+Mini-Batch SGD: Uses batches of 16 samples, resulting in multiple updates per epoch.
+
+Results
+
+Both methods are used to train the same neural network architecture. The final training accuracy for Batch Gradient Descent and SGD is displayed after 200 epochs.
+
+Example output:
+
+Batch GD accuracy: XX.XX
+SGD accuracy: XX.XX
+
+
+The exact accuracy may vary depending on the training process.
+
